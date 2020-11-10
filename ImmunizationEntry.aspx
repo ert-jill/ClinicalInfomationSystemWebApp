@@ -50,7 +50,7 @@
                             <asp:TextBox ID="ImmuPatientCodeTextBox" runat="server" OnTextChanged="ImmuPatientCodeTextBox_TextChanged"></asp:TextBox>
                         </div>
                         <!-- Patient Name -->
-                        <div class="col-sm-3">
+                        <div class="auto-style1">
                             <asp:Label ID="Label5" runat="server" Text="Label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patient Name</asp:Label>
                         </div>
                         <div class="col-sm-3">
@@ -97,7 +97,7 @@
                             <asp:Label ID="Label2" runat="server" Text="Label">Gender</asp:Label>
                         </div>
                         <div class="col-sm-3">
-                            <asp:TextBox ID="TextBox1" runat="server" Enabled="False"></asp:TextBox>
+                            <asp:TextBox ID="ImmuGenderTextBox" runat="server" Enabled="False"></asp:TextBox>
                         </div>
                         <!-- Birthday -->
                         <div class="col-sm-3">
@@ -114,14 +114,14 @@
                             <asp:Label ID="Label12" runat="server" Text="Label">Age</asp:Label>
                         </div>
                         <div class="col-sm-3">
-                            <asp:TextBox ID="ConAgeTextBox" runat="server" Enabled="False"></asp:TextBox>
+                            <asp:TextBox ID="ImmuAgeTextBox" runat="server" Enabled="False"></asp:TextBox>
                         </div>
                         <!-- Patient Weight -->
                         <div class="col-sm-3">
                             <asp:Label ID="Label13" runat="server" Text="Label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weight</asp:Label>
                         </div>
                         <div class="col-sm-3">
-                            <asp:TextBox ID="ConWeightTextBox" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="ImmuWeightTextBox" runat="server"></asp:TextBox>
                         </div>
                     </div>
                     <br />
@@ -131,7 +131,7 @@
                             <asp:Label ID="Label14" runat="server" Text="Label">Height</asp:Label>
                         </div>
                         <div class="col-sm-3">
-                            <asp:TextBox ID="ConHeightTextBox" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="ImmuHeightTextBox" runat="server"></asp:TextBox>
                         </div>
                     </div>
                     <br />
@@ -227,3 +227,19 @@
     </div>
     <br />
 </asp:Content>
+<asp:Content ID="Content3" runat="server" contentplaceholderid="head">
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            width: 100%;
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%;
+            left: 0px;
+            top: 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</asp:Content>
+

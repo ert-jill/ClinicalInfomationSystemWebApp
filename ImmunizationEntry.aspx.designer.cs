@@ -168,13 +168,13 @@ namespace ClinicalInfomationSystemWebApp
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// TextBox1 control.
+        /// ImmuGenderTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox ImmuGenderTextBox;
 
         /// <summary>
         /// Label10 control.
@@ -204,13 +204,13 @@ namespace ClinicalInfomationSystemWebApp
         protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// ConAgeTextBox control.
+        /// ImmuAgeTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ConAgeTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ImmuAgeTextBox;
 
         /// <summary>
         /// Label13 control.
@@ -222,13 +222,13 @@ namespace ClinicalInfomationSystemWebApp
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
-        /// ConWeightTextBox control.
+        /// ImmuWeightTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ConWeightTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ImmuWeightTextBox;
 
         /// <summary>
         /// Label14 control.
@@ -240,13 +240,13 @@ namespace ClinicalInfomationSystemWebApp
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// ConHeightTextBox control.
+        /// ImmuHeightTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ConHeightTextBox;
+        protected global::System.Web.UI.WebControls.TextBox ImmuHeightTextBox;
 
         /// <summary>
         /// Label11 control.
