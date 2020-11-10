@@ -1,0 +1,28 @@
+﻿body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+#nav-container a:hover {
+    border-bottom: 5px solid white;
+}
+
+.section-header {
+    background-color: brown;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+#ConDiagInfoGridView {
+    align-content: center;
+    text-align: center
+}
+
+#dashboardContent {
+    font-size: 14px;
+    color: darkslategrey;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
